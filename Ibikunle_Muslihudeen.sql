@@ -36,6 +36,7 @@ select sum(profit) from Manager.sales_data
 where sales_year in('2011','2012','2013','2014','2015','2016')
 or 
 select sum(profit) totalprofitinsixyears from Manager.sales_data
+  
 -----Question b------
 -----Code--------
 select sales_year,sum(profit) from Manager.sales_data
